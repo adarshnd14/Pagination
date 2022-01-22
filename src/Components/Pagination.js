@@ -53,7 +53,7 @@ function Pagination({ data, RenderComponent, title, pageLimit, dataLimit }) {
                 >
                     prev
                 </button>
-                <h1>hii</h1>
+             
                 {/* show page numbers */}
                 {getPaginationGroup().map((item, index) => (
                     <button
