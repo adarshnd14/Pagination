@@ -53,12 +53,13 @@ function Pagination({ data, RenderComponent, title, pageLimit, dataLimit }) {
                 >
                     prev
                 </button>
-
+                <h1>hii</h1>
                 {/* show page numbers */}
                 {getPaginationGroup().map((item, index) => (
                     <button
                         style={{ margin: '5px' }}
                         key={index}
+                        
                         onClick={changePage}
                         className={` btn btn-success shadow paginationItem ${currentPage === item ? 'active' : null}`}
                     >
