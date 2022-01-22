@@ -1,0 +1,10 @@
+.post{
+ display:flex;
+ width: 500px;
+ height: 200px;
+}
+body{
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(rgb(6, 4, 34), rgb(46, 96, 160));
+}
